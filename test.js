@@ -13,5 +13,5 @@ test('test3', () => {
 })
 
 test('test4', () => {
-  expect(getGreeting('karina')).not.toBeNaN
+  expect(getGreeting('karina')).toBe(8)
 })
