@@ -7,3 +7,7 @@ test('can create a basic greeting', () => {
 test('test 2', () => {
   expect(getGreeting('Karina')).toBe("Hi Karina")
 })
+
+test('test3', () => {
+  expect(getGreeting('karina')).toBeNaN
+})
