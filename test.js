@@ -11,3 +11,7 @@ test('test 2', () => {
 test('test3', () => {
   expect(getGreeting('karina')).toBeNaN
 })
+
+test('test4', () => {
+  expect(getGreeting('karina')).not.toBeNaN
+})
